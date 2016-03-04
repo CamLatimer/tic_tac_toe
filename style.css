@@ -19,20 +19,6 @@ table {
   table-layout:fixed;
   border-spacing: 0px;
   transform: skewx(-15deg);
-  opacity: .2;
-}
-table:hover {
-  opacity: 1;
-  transition: opacity .7s;
-}
-.cells {
-  text-align: center;
-  width: 150px;
-  height: 130px;
-  border: 5px solid black;
-  cursor: pointer;
-  padding: 0;
-  font-size: 3em;
 }
 /* right side of grid */
 #cell2 {
@@ -80,4 +66,17 @@ h2 {
 h2:hover {
   opacity: 1;
   transition: opacity .7s;
+}
+.cells {
+  text-align: center;
+  width: 150px;
+  height: 130px;
+  border: 5px solid grey;
+  cursor: pointer;
+  padding: 0;
+  font-size: 3em;
+  opacity: .2;
+}
+.full-o {
+  opacity: 1;
 }
