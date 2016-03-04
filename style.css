@@ -2,9 +2,12 @@ body {
   font-family: 'Didact Gothic', sans-serif;
 }
 h1 {
+  position: relative;
+  left: 7px;
   font-style: italic;
   opacity: .2;
   cursor: pointer;
+  display: inline;
 }
 h1:hover {
   opacity: 1;
